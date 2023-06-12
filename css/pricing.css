@@ -1,0 +1,138 @@
+
+.faq .d-header {
+    text-align: center;
+}
+
+.faq .d-header .d-main-header {
+    text-align: center;
+    font-size: 58px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+}
+
+.faq .d-header .d-sub-header {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 21px;
+    font-weight: 400;
+    /* text-transform: capitalize; */
+}
+
+.faq .d-header .d-sub-header strong {
+    font-weight: 700;
+    color: #FBB402;
+}
+
+.faq {
+    max-width: 950px;
+    margin: 90px auto 150px;
+}
+
+.d-faq-content .d-faq-item {
+    background: #fffbf4;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.d-faq-content .d-faq-item .d-faq-header {
+    background: #dee8d4;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-part {
+    display: inline-block;
+    vertical-align: middle;
+    width: 92%;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-ico {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 7%;
+}
+
+.d-faq-content .d-faq-item .d-faq-desc {
+    padding: 15px 10px;
+    font-size: 17px;
+    display: none;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-ico i {
+    transition: transform .7s ease-in-out;
+}
+
+.d-faq-content .d-faq-item .d-faq-header:hover .d-text-ico i {
+    transform: rotate(450deg);
+}
+
+
+.price-comparison {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.comp-table .comp-row  {
+    border-bottom: 1px solid #578e07;
+}
+
+.comp-table .comp-row .d-base-cell {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 25px 10px;
+    font-size: 15px;
+}
+
+.comp-table .comp-row .d-base-cell.cell-one {
+    width: 30%;
+}
+
+.comp-table .comp-row .d-base-cell.cell-two {
+    width: 10%;
+    text-align: center;
+}
+
+.comp-table .comp-row .d-base-cell.cell-three {
+    width: 10%;
+    text-align: center;
+}
+
+.comp-table .comp-row .d-base-cell.cell-four {
+    width: 10%;
+    text-align: center;
+}
+
+.comp-table .comp-row .d-base-cell.cell-five {
+    width: 10%;
+    text-align: center;
+}
+
+.comp-table .comp-row .d-base-cell.cell-six {
+    width: 25%;
+}
+
+.comp-row.comp-header .d-base-cell {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.comp-table .comp-row .d-base-cell.mark-x i {
+    color: #f40808;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.comp-table .comp-row .d-base-cell.mark-check i {
+    color: #77c900;
+    font-weight: bold;
+    font-size: 22px;
+}

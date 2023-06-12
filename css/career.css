@@ -1,0 +1,81 @@
+.career-slider-part .d-slider-inner{
+    text-align: center;
+}
+
+.d-slider-part.career-slider-part {
+    padding-top: 25px;
+}
+
+.d-slider-part.career-slider-part .d-slider-inner {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.career-slider-part .join-form-desc {
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.career-slider-part h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.career-slider-part .join-form-fields {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.career-slider-part .join-form-fields .join-form-notes {
+    font-size: 14px;
+}
+
+.join-firm-items .career-item {
+    background: #fff;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px #ccc;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.join-firm-items .career-item .left-item {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.join-firm-items .career-item .right-item {
+    display: inline-block;
+    width: 46%;
+    text-align: right;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.d-call-button a {
+    background: #578e07;
+    padding: 18px 25px;
+    display: inline-block;
+    line-height: 1em;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
+
+.d-call-button {
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.hide_desc {
+    display: none;
+}

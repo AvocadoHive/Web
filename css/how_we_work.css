@@ -1,0 +1,289 @@
+.d-how-we-work-page h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    background: #fffbf4 url(../images/footer_bg.png) center center;
+    color: #333;
+    padding: 150px;
+    font-size: 65px;
+}
+
+.d-how-we-work-page h1 span {
+    display: block;
+    font-weight: 700;
+    color: #fbb400;
+}
+
+.get-started {
+    max-width: 1150px;
+    margin: 90px auto;
+}
+
+.get-started .started-columns {
+    text-align: center;
+    
+}
+
+.get-started .d-column-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 0 0 12px #ccc;
+    padding: 30px;
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.get-started .d-col-title  {
+    text-align: left;
+    margin-bottom: 15px;
+    z-index: 2;
+    position: relative;
+    margin-top: 52px;
+    min-height: 65px;
+}
+
+.get-started .d-col-title span {
+    display: block;
+    line-height: 1em;
+}
+
+.get-started .d-col-title span.one-top {
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.get-started .d-col-title span.two-top {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fbb400;
+}
+
+.get-started .d-col-desc {
+    text-align: left;
+    font-weight: 100;
+    z-index: 2;
+    position: relative;
+    font-size: 18px;
+}
+
+.get-started .d-column-item .d-col-icon {
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    top: 10px;
+}
+
+.get-started .d-column-item .d-col-icon i {
+    font-size: 185px;
+    color: #ffeec5;
+}
+
+.get-started h2 {
+    text-align: center;
+    font-size: 58px;
+    line-height: 1em;
+    margin: 0px 0 60px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+}
+
+.guaranteed-section {
+    max-width: 1150px;
+    margin: 90px auto 150px;
+}
+
+.guaranteed-item {
+    position: relative;
+}
+
+.guaranteed-section .d-gone-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fbb400;
+    margin: 0;
+    line-height: 1em;
+    position: relative;
+    z-index: 2;
+}
+
+.guaranteed-section .gr-one .d-gone-icon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.guaranteed-section .d-gone-desc {
+    position: relative;
+    z-index: 2;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.guaranteed-section .gr-one .d-gone-icon i {
+    font-size: 254px;
+    color: #dfe7d4;
+}
+
+.guaranteed-section .gr-one .d-gone-header {
+    margin-left: 80px;
+}
+
+
+.guaranteed-section .gr-one .d-gone-desc {
+    margin-left: 80px;
+}
+
+.guaranteed-section .guaranteed-item.gr-one {
+    margin-bottom: 50px;
+    padding-top: 90px;
+    padding-left: 175px;
+    margin-left: 132px;
+    width: 80%;
+}
+
+.guaranteed-section .gr-two .d-gone-icon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.guaranteed-section .gr-two .d-gone-icon i {
+    font-size: 254px;
+    color: #dfe7d4;
+}
+
+.guaranteed-section .gr-two {
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 175px;
+    margin-left: 132px;
+    width: 80%;
+}
+
+.faq .d-header {
+    text-align: center;
+}
+
+.faq .d-header .d-main-header {
+    text-align: center;
+    font-size: 58px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+}
+
+.faq .d-header .d-sub-header {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 21px;
+    font-weight: 400;
+    /* text-transform: capitalize; */
+}
+
+.faq .d-header .d-sub-header strong {
+    font-weight: 700;
+    color: #FBB402;
+}
+
+.faq {
+    max-width: 950px;
+    margin: 90px auto 150px;
+}
+
+.d-faq-content .d-faq-item {
+    background: #fffbf4;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.d-faq-content .d-faq-item .d-faq-header {
+    background: #dee8d4;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-part {
+    display: inline-block;
+    vertical-align: middle;
+    width: 92%;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-ico {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 7%;
+}
+
+.d-faq-content .d-faq-item .d-faq-desc {
+    padding: 15px 10px;
+    font-size: 17px;
+    display: none;
+}
+
+.d-faq-content .d-faq-item .d-faq-header .d-text-ico i {
+    transition: transform .7s ease-in-out;
+}
+
+.d-faq-content .d-faq-item .d-faq-header:hover .d-text-ico i {
+    transform: rotate(450deg);
+}
+
+.d-service-features {
+    width: 1153px;
+    margin: 120px auto;
+}
+
+.d-service-features .d-feat-item .d-feat-image {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.d-service-features .d-feat-item .d-feat-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.d-service-features .d-features-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-service-features .d-feat-item .d-feat-text .d-feat-right-inner {
+    padding-left: 40px;
+}
+
+.d-service-features .d-feat-item .d-feat-text .d-feat-left-inner {
+    padding-right: 40px;
+}
+
+
+.d-service-features .d-feat-item .d-feat-text h3 {
+    font-size: 41px;
+    color: FBB402;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.1em;
+}
+
+.d-service-features .d-features-inner .d-feat-item {
+    margin-bottom: 95px;
+}

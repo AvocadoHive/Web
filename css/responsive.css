@@ -1,0 +1,136 @@
+
+
+@media only screen and (max-width: 1250px) {
+    .d-next-door img {
+        right: 0;
+    }
+
+    .home-cta img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .d-why-avocado,
+    .d-center-content-inner,
+    .d-slider-part,
+    .d-inner-header,
+    .d-we-offer,
+    .footer-inner {
+        width: 90%;
+    }
+
+    .d-next-door img {
+        position: relative;
+        top: initial;
+        right: initial;
+        margin: 0 auto;
+        width: 600px;
+        display: block;
+    }
+
+    .d-next-door {
+        text-align: center;
+    }
+
+    .d-next-door .sep-desc {
+        max-width: 590px;
+        margin: 0 auto 32px;
+    }
+
+    .d-slide-text {
+        position: relative;
+        top: 250px;
+        z-index: 1;
+    }
+
+    .d-slider-inner .d-slide-image {
+        opacity: .4;
+    }
+
+    .d-header-logo {
+        width: 25%;
+    }
+
+    .d-header-menu {
+        width: 73%;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .d-ref-cols {
+        width: 20%;
+    }
+
+    .d-home-quality,
+    .d-how-it-works,
+    .d-commit-module,
+    .d-flexi-service,
+    .d-avoid-main,
+    .d-yellow-girl {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .d-we-options .d-we-items {
+        width: 43%;
+    }
+    .d-ref-cols {
+        width: 43%;
+        margin-bottom: 35px;
+    }
+    .d-header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .d-header-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .d-feat-footer .fear-based{
+        width: 100%;
+    }
+
+    .d-quality-items .d-quality-item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .d-how-works-items .d-how-items {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .d-yellow-girl-inner .d-yg-image img {
+        margin-left: -110px;
+    }
+}
+
+@media only screen and (max-height: 880px) {
+    .d-slider-inner {
+        margin-top: 0;
+    }
+    .d-main-above-fold {
+        min-height: 890px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .d-next-door img {
+        width: 100%;
+    }
+
+    .d-we-options .d-we-items {
+        width: 90%;
+    }
+
+    .d-flexi-services .d-flexi-item{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+   
+}

@@ -1,0 +1,314 @@
+.d-services-page {
+    background: url(../images/secondary-bg.png) no-repeat center top;
+    background-size: cover;
+}
+
+.d-services-page h1 {
+    text-align: center;
+    font-size: 58px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    padding-top: 230px;
+}
+
+.d-services-page .service-sub-header {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.d-services-page .service-sub-header span {
+    font-weight: 700;
+    color: #FBB402;
+}
+
+.d-services-page .services-offers {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.d-services-page .d-service-features {
+    width: 1153px;
+    margin: 0 auto;
+}
+
+
+.d-services-page .services-offers {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.d-services-page .services-offers .service-offer-item {
+    display: inline-block;
+    width: 17%;
+    margin: 0 1%;
+    background: #fff;
+    box-shadow: 0px 3px 12px rgb(0 0 0 / 14%);
+    border-radius: 14px;
+    vertical-align: top;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #FBB402;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-price {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1em;
+    margin: 10px 0;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-price sup {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.d-services-page .services-offers .service-offer-item .d-offer-top {
+    min-height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-desc {
+    min-height: 160px;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-desc ul {
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-desc ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.d-services-page .services-offers .service-offer-item .offer-desc ul li:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    position: absolute;
+    left: -25px;
+    color: #578E08;
+}
+
+/* Buzz Out */
+@-webkit-keyframes hvr-buzz-out {
+    10% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+      -webkit-transform: translateX(1px) rotate(0);
+      transform: translateX(1px) rotate(0);
+    }
+    100% {
+      -webkit-transform: translateX(-1px) rotate(0);
+      transform: translateX(-1px) rotate(0);
+    }
+  }
+  @keyframes hvr-buzz-out {
+    10% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+      -webkit-transform: translateX(1px) rotate(0);
+      transform: translateX(1px) rotate(0);
+    }
+    100% {
+      -webkit-transform: translateX(-1px) rotate(0);
+      transform: translateX(-1px) rotate(0);
+    }
+  }
+
+  .hvr-buzz-out {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+  .hvr-buzz-out:hover,
+  .hvr-buzz-out:focus,
+  .hvr-buzz-out:active {
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+.d-services-page .services-offers .service-offer-item .offer-button a {
+    background: #578E08;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+
+    
+}
+
+
+.d-services-page .d-service-features .d-feat-item .d-feat-image {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.d-services-page .d-service-features .d-feat-item .d-feat-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.d-services-page .d-service-features .d-features-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-services-page .d-service-features .d-feat-item .d-feat-text .d-feat-right-inner {
+    padding-left: 40px;
+}
+
+.d-services-page .d-service-features .d-feat-item .d-feat-text .d-feat-left-inner {
+    padding-right: 40px;
+}
+
+
+.d-services-page .d-service-features .d-feat-item .d-feat-text h3 {
+    font-size: 41px;
+    color: FBB402;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.1em;
+}
+
+.d-services-page .d-service-features .d-features-inner .d-feat-item {
+    margin-bottom: 95px;
+}
+
+
+.service-offer-item.offer-low {
+  margin-top: 200px !important;
+}
+
+.service-offer-item.offer-high {
+  margin-top: 100px !important;
+}
+
+.service-offer-item.offer-low .offer-desc {
+  min-height: 290px !important;
+}
+
+.service-offer-item.offer-high .offer-desc {
+  min-height: 390px !important;
+}
+
+.service-offer-item.offer-highest .offer-desc {
+  min-height: 450px !important;
+}
+
+.d-services-page .services-offers .service-offer-item .d-offer-top img {
+  position: absolute;
+  width: 90px;
+  right: -13px;
+  top: -5px;
+}
+
+.offerbadge {
+  margin: -20px -20px 15px -20px;
+  color: #333;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: 700;
+  background: rgb(251,180,2);
+  background: linear-gradient(162deg, rgba(251,180,2,1) 0%, rgba(242,242,24,1) 100%);
+  box-shadow: 0 0 12px #fbb400;
+}
+
+.service-offer-item.offer-low.custom-offer .offer-desc {
+  min-height: 320px !important;
+}

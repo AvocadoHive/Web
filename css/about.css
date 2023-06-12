@@ -1,0 +1,75 @@
+.about-slider-part h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.about-slider-part .d-sub-portal {
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.about-slider-part .d-sub-portal span {
+    color: #578E08;
+    font-weight: bold;
+}
+
+.about-slider-part ul {
+    margin: 0;
+    padding: 0;
+}
+
+.about-slider-part ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.about-slider-part ul li span {
+    width: 23px;
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #578E08;
+}
+
+.about-page-setting {
+    background: url(../images/bg-logo.png) no-repeat center center;
+    display: block;
+}
+
+.about-page-setting .d-next-door h2 {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Urbanist', sans-serif;
+    margin-bottom: 30px;
+}
+
+.about-page-setting .d-next-door h2 span {
+    color: #FBB402;
+    font-weight: 900;
+}
+
+.reverse-polarities .d-next-door img {
+    position: absolute;
+    left: -55px;
+    top: -57px;
+}
+
+.reverse-polarities .d-next-door .sep-desc {
+    margin-left: 50%;
+}
+
+.about-page-setting .reverse-polarities  .d-next-door h2 {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.cneter-content {
+    margin-bottom: 80px;
+}
+
+.about-page-setting {
+    margin-top: 150px;
+}
