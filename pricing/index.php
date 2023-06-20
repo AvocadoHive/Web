@@ -39,7 +39,7 @@
                     <div class="service-offer-item offer-one offer-low">
                         <div class="d-offer-top">
                             <div class="offer-name">Lite</div>
-                            <div class="offer-price">$200</div>
+                            <div class="offer-price">$240</div>
                         </div>
                         <div class="offer-desc">
                             <ul>
@@ -55,7 +55,7 @@
                     <div class="service-offer-item offer-two offer-high">
                         <div class="d-offer-top">
                             <div class="offer-name">Persea</div>
-                            <div class="offer-price">$400</div>
+                            <div class="offer-price">$480</div>
                         </div>
                         <div class="offer-desc">
                             <ul>
@@ -71,13 +71,13 @@
                     <div class="service-offer-item offer-three offer-highest">
                         <div class="offerbadge">Most Popular</div>
                         <div class="d-offer-top">
-                            <div class="offer-name">Honeycomb</div>
-                            <div class="offer-price">$700</div>
+                            <div class="offer-name">Avocado</div>
+                            <div class="offer-price">$1,500</div>
                         </div>
                         <div class="offer-desc">
                             <ul>
-                                <li>80 hours per month</li>
-                                <li>5-10 minutes guaranteed response time</li>
+                                <li>160 hours per month</li>
+                                <li>5 minutes guaranteed response time</li>
                                 <li>Time-blocking preference</li>
                                 <li>Can split into bi-weekly payments</li>
                                 <li>Can perform any of the following: Admin, Phone-time, Knowledge-base work.</li>
@@ -89,13 +89,13 @@
                     </div>
                     <div class="service-offer-item offer-four offer-high">
                         <div class="d-offer-top">
-                            <div class="offer-name">Avocado</div>
-                            <div class="offer-price">$1,400</div>
+                            <div class="offer-name">Honeycomb</div>
+                            <div class="offer-price">$800</div>
                         </div>
                         <div class="offer-desc">
                             <ul>
-                                <li>160 hours per month</li>
-                                <li>5 minutes guaranteed response time</li>
+                                <li>80 hours per month</li>
+                                <li>5-10 minutes guaranteed response time</li>
                                 <li>Time-blocking preference</li>
                                 <li>Can split into bi-weekly payments</li>
                                 <li>Can perform any of the following: Admin, Phone-time, Knowledge-base work.</li>

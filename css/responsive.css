@@ -1,4 +1,8 @@
-
+@media only screen and (max-width: 1370px) {
+    .d-services-page .services-offers {
+        width: 95%;
+    }
+}
 
 @media only screen and (max-width: 1250px) {
     .d-next-door img {
@@ -8,6 +12,19 @@
     .home-cta img {
         width: 100%;
     }
+    
+    .price-comparison,
+    .d-why-avocado,
+    .d-we-offer{
+        width: 95%;
+    }
+
+    .d-why-content-full,
+    .comp-table {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
 }
 
 @media only screen and (max-width: 1165px) {
@@ -55,6 +72,10 @@
     .d-header-menu {
         width: 73%;
     }
+
+    .d-service-features {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1115px) {
@@ -69,6 +90,31 @@
     .d-avoid-main,
     .d-yellow-girl {
         width: 95%;
+    }
+
+    .d-services-page .services-offers .service-offer-item .offer-name {
+        font-size: 26px;
+    }
+
+    .d-services-page .services-offers .service-offer-item .offer-price {
+        font-size: 36px;
+    }
+
+    .service-offer-item.offer-low .offer-desc,
+    .service-offer-item.offer-low.custom-offer .offer-desc {
+        min-height: 380px !important;
+    }
+
+    .service-offer-item.offer-high .offer-desc {
+        min-height: 480px !important;
+    }
+
+    .service-offer-item.offer-highest .offer-desc {
+        min-height: 515px !important;
+    }
+
+    .faq {
+        width: 90%;
     }
 }
 
@@ -108,6 +154,75 @@
     .d-yellow-girl-inner .d-yg-image img {
         margin-left: -110px;
     }
+
+    .d-header-logo {
+        width: 100%;
+    }
+    .d-header-menu {
+        width: 100%;
+    }
+
+    .d-header-menu ul li {
+        margin-bottom: 25px;
+    }
+
+    .d-next-door {
+        padding: 20px 0;
+    }
+
+    .d-commit-module-inner {
+        margin: 30px 0 100px;
+    }
+
+    .footer-info-inner .d-footer-cols {
+        width: 49%;
+        margin-bottom: 30px;
+    }
+
+    .footer-info-inner .d-about-us.d-footer-cols {
+        width: 49%;
+    }
+
+    .footer-info-inner .d-contact-us.d-footer-cols {
+        width: 49%;
+    }
+
+    .d-service-features .d-feat-item .d-feat-image img {
+        width: 100%;
+    }
+
+    .reverse-polarities .d-next-door img {
+        position: relative;
+        top: initial;
+        left: initial;
+    }
+
+    .reverse-polarities .d-next-door .sep-desc {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-page-setting .reverse-polarities .d-next-door h2 {
+        width: 90%;
+        margin: 0 auto 40px;
+    }
+    
+    .d-slider-part.career-slider-part .d-slider-inner {
+        width: 90%;
+    }
+
+    .d-services-page .services-offers .service-offer-item {
+        width: 45%;
+        margin: 10px !important;
+    }
+
+    .d-services-page .services-offers .service-offer-item .offer-desc {
+        min-height: 230px !important;
+    }
+
+    .d-services-page h1 {
+        padding-top: 115px;
+    }
 }
 
 @media only screen and (max-height: 880px) {
@@ -132,5 +247,148 @@
         width: 100%;
         margin-bottom: 60px;
     }
+
+    .d-next-door .sep-desc {
+        max-width: none;
+        width: 95%;
+    }
+
+    .d-works-inner {
+        padding-top: 100px;
+    }
+
+    .d-commit-items .d-commit-item {
+        width: 49%;
+    }
+    
+    .d-avoid-items .d-avoid-item {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .d-yellow-girl-inner .d-yg-image {
+        display: none;
+    }
+
+    .d-yellow-girl-inner .d-yg-desc {
+        width: 100%;
+        padding: 45px;
+    }
+
+    .d-yellow-girl {
+        margin: 30px auto;
+    }
+
+    .d-avoid-inner {
+        margin: 30px 0;
+    }
+
+    .d-avoid-inner h2 {
+        margin-bottom: 50px;
+    }
    
+    .d-service-features .d-feat-item .d-feat-image {
+        width: 100%;
+    }
+
+    .d-service-features .d-feat-item .d-feat-text {
+        width: 100%;
+    }
+    
+    .d-service-features .d-feat-item .d-feat-text .d-feat-right-inner {
+        padding-left: 0;
+    }
+
+    .get-started .d-column-item {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .guaranteed-section .guaranteed-item.gr-one {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .guaranteed-section .gr-two {
+        margin: 52px auto 0;
+        width: 90%;
+    }
+
+    .d-how-we-work-page h1 {
+        padding: 50px 30px;
+    }
+
+    .d-faq-content .d-faq-item .d-faq-header .d-text-part {
+        width: 90%;
+    }
+
+    .faq {
+        max-width: initial;
+        width: 90%;
+    }
+
+    .career-slider-part .join-form-fields {
+        width: 100%;
+    }
+
+    .d-services-page .services-offers .service-offer-item {
+        width: 95%;
+        margin: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .footer-info-inner .d-footer-cols {
+        width: 100% !important;
+    }
+    .guaranteed-section .guaranteed-item.gr-one {
+        padding-left: 0;
+    }
+    .guaranteed-section .gr-two {
+        padding-right: 0;
+    }
+
+    .guaranteed-section .gr-one .d-gone-header,
+    .guaranteed-section .gr-one .d-gone-desc {
+        margin-left: 0;
+    }
+
+    .comp-row.comp-header .d-base-cell {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+
+    .comp-table .comp-row .d-base-cell.cell-two,
+    .comp-table .comp-row .d-base-cell.cell-three,
+    .comp-table .comp-row .d-base-cell.cell-four,
+    .comp-table .comp-row .d-base-cell.cell-five {
+        width: 9.5%;
+        vertical-align: bottom;
+    }
+
+    .comp-table .comp-row .d-base-cell.cell-six {
+        max-height: min-content;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    /* .d-slide-text {
+        top: 20px;
+    } */
+    
+    .d-slide-text h2 {
+        font-size: 31px;
+    }
+
+    .d-home-quality .d-home-quality-inner h2 {
+        font-size: 31px;
+    }
+
+    .d-yellow-girl-inner .d-yg-desc {
+        font-size: 31px;
+    }
+
+    .d-how-we-work-page h1 {
+        font-size: 45px;
+    }
 }
