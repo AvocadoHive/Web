@@ -88,7 +88,8 @@
     .d-commit-module,
     .d-flexi-service,
     .d-avoid-main,
-    .d-yellow-girl {
+    .d-yellow-girl,
+    .d-stats-homepage-inner {
         width: 95%;
     }
 
@@ -222,6 +223,18 @@
 
     .d-services-page h1 {
         padding-top: 115px;
+    }
+
+    .d-stats-homepage-inner {
+        width: 100%;
+    }
+
+    .d-stats-homepage-inner .d-stats-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .d-counter-script .d-counter-inner strong {
+        display: block;
     }
 }
 

@@ -19,7 +19,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/28b5b7d92f.js" crossorigin="anonymous"></script>
 
+<script src="../js/counter.js"></script>
+
 <script>
+
     window.addEventListener('scroll', function() {
         var element = document.querySelector('.header');
         var position = element.getBoundingClientRect();
@@ -131,6 +134,45 @@
         }(jQuery));
 
     $( document ).ready(function() {
+        /**
+         * set interval for counter
+         */
+
+        function parseDate(str) {
+            
+            var mdy = str.split('/');
+            return new Date(mdy[2], mdy[0] - 1, mdy[1]);
+        }
+
+        function datediff(first, second) {        
+            return Math.round((second - first) / (1000 * 60 * 60 * 24));
+        }
+        setInterval(function() {
+            var date1 = new Date("03/01/2023");
+            var date2 = new Date();
+
+
+            // var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+            // var diffdays = Math.ceil(timeDiff / 1000 * 60 * 60 * 24);
+            var daydiffs = datediff(date1, date2);
+            //
+
+            console.log(daydiffs);
+
+            var timespan = countdown(new Date("03/01/2023"), new Date());
+            // console.log(timespan);
+            var cmonths = document.getElementById('counter_months');
+            var cdays = document.getElementById('counter_days');
+            var chours = document.getElementById('counter_hours');
+            var cminutes = document.getElementById('counter_minute');
+            var cseconds = document.getElementById('counter_seconds');
+            // div.innerHTML = "Time difference with 08/24/2012 is " + timespan.years + " years, " + timespan.months + " months, " + timespan.days + " days, " + timespan.hours + " hours, " + timespan.minutes + " minutes, " + timespan.seconds + " seconds."
+            // cmonths.innerHTML = timespan.months;
+            cdays.innerHTML = daydiffs;
+            chours.innerHTML = timespan.hours;
+            cminutes.innerHTML = timespan.minutes;
+            cseconds.innerHTML = timespan.seconds;
+        }, 1000);
 
         $('#target').teletype({
         text: [

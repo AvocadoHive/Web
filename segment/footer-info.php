@@ -18,7 +18,7 @@
                 <ul>
                     <li><i class="fa-solid fa-phone-volume"></i> <span>&nbsp;</span></li>
                     <li><i class="fa-solid fa-envelope"></i> <span>info@avocadohive.com</span></li>
-                    <li><i class="fa-solid fa-location-dot"></i> <span>Corner Andrade & Yumang Street,</span><br /><span class="address-move-left">General Santos City, Philippines</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span>Corner Andrade & Yumang Street, </span><br /><span class="address-move-left">General Santos City, Philippines</span></li>
                     <li><i class="fa-solid fa-calendar-days"></i> <strong>Corporate Office Hours</strong><br /><span class="corpo-hour-value">9am to 5pm Eastern Time</span></li>
                     <li><i class="fa-solid fa-people-pulling"></i> <strong>Services Hours: </strong><span class="service-hour-value">24/7</span></li>
                 </ul>

@@ -27,6 +27,37 @@
             </div>
         </div>
     </div>
+    
+    <div class="d-stats-homepage">
+        <div class="d-stats-homepage-inner">
+            <div class="d-stats-item">
+                <div class="d-stats-icon stat-ico-one">
+                    <div class="d-ico-part"><i class="fa-solid fa-arrow-turn-up"></i></div>
+                    <div class="d-number-part">47.5%</div>
+                </div>
+                <div class="d-stats-text">Payroll <span>Savings</span></div>
+            </div>
+            <div class="d-stats-item">
+                <div class="d-stats-icon stat-ico-two">
+                    <div class="d-ico-part"><i class="fa-solid fa-arrow-turn-up"></i></div>
+                    <div class="d-number-part">22.5%</div>
+                </div>
+                <div class="d-stats-text"><span>Additional Savings</span> from cutting out retraining, onboarding, and recruitment costs</div>
+            </div>
+            <div class="d-stats-item">
+                <div class="d-stats-icon stat-ico-three">
+                    <div class="d-ico-part"><i class="fa-solid fa-arrow-turn-up"></i></div>
+                    <div class="d-number-part">96.0%</div>
+                </div>
+                <div class="d-stats-text">Customer <span>Satisfaction Score</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-counter-script">
+        <div class="d-counter-inner">
+            <span id="counter_days">0</span> days <span id="counter_hours">0</span> hours <span id="counter_minute">0</span> Minutes <span id="counter_seconds">0</span> seconds of <strong>No Downtime </strong>
+        </div>
+    </div>
     <div class="d-center-content-inner">
         <div class="d-next-door">
             <h2>We are <span>committed</span> in helping you.</h2>
